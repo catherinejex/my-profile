@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+}
+
+.content {
+  margin: 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.8))), url(images/francesco-bianco-TVsgRyKJDc0-unsplash.jpg);
+  background-size: cover;
+  color: white;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 0px;
+  text-align: center;
+  width: 100%;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  letter-spacing: 2px;
+}
+
+body {
+  margin: 0;
+  overscroll-behavior: none;
+}
+
+.nav {
+  background: -webkit-gradient(linear, left top,
+    left bottom, from(rgba(107, 112, 92, 1)), to(rgba(107, 112, 92, 0.5)));
+  padding-bottom: 15px;
+  padding-top: 15px;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  word-spacing: 60px;
+  margin: 0;
+}
+
+.navigation {
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+.nav-text:hover {
+  transition: 0.5s;
+  color: #333d29;
+  transition: 0.5s;
+}
+
+.nav-text {
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 18px;
+  width: 150px;
+  text-decoration: none;
+  color: #ffe8d6;
+}
+
+.heading {
+  font-family: 'Playfair Display SC', serif;
+  color: #ffe8d6;
+  font-size: 35px;
+  border-radius: 5px;
+  margin: 15px auto;
+  width: 800px;
+  padding-bottom: 10px;
+  padding-top: 50px;
+}
+
+h1 {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+
+ .avatar {
+   border-radius: 10px;
+   border: #ffe8d6 2px solid;
+ }
+
+ .about, .likes, .dislikes, .cats {
+   color: #ffe8d6;
+   font-size: 15px;
+   background-color: rgba(107,112,92,0.3);
+   border-radius: 15px;
+   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+   margin: 35px auto;
+   width: 800px;
+   padding: 30px;
+  }
+
+  .mo, .june {
+    border-radius: 10px;
+    border: #ffe8d6 3px solid;
+    margin: 10px;
+  }
+
+ .cats {
+   margin-bottom: 60px;
+   align-items: center;
+   justify-content: center;
+   grid-template-columns: 170px 170px;
+   grid-template-rows: 170px 170px;
+   grid-column-gap: 20px;
+   grid-row-gap: 20px;
+ }
+
+ .cat-1 {
+   display: flex;
+ }
+
+ .mo-text, .june-text {
+   text-align: center;
+   justify-content: center;
+   margin: auto;
+ }
+
+.footer {
+ background-color:  #6b705c;
+ justify-content: center;
+ text-align: center;
+ margin: 0;
+ height: 100%;
+ width: 100%;
+}
+
+.follow {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 25px;
+  color: #ffe8d6;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  letter-spacing: 3px;
+  width: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  display: block;
+  padding-right: 50px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+li {
+  display: inline-block;
+  color: #ffe8d6;
+  width: 75px;
+}
+
+.icon {
+  color: #ffe8d6;
+  font-size: 40px;
+}
+
+.icon:hover {
+  color: #333d29;
+  transition: 0.5s;
+}
+
+.icon:hover {
+  color: #333d29;
+  transition: 0.5s;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .content {
+    width: 100%;
+    overflow: auto;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .content, .footer {
+    width: 100%;
+    overflow: auto;
+
+  }
+}
+
+@media (min-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .content, .footer {
+    width: 100%;
+    overflow: auto;
+
+  }
+}
